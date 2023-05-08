@@ -1,2 +1,2 @@
 main:
-	rm ./xtr && gcc main.c -o xtr
+	touch xtr && rm ./xtr && gcc main.c -o xtr
