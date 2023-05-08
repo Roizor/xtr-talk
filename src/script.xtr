@@ -1,0 +1,8 @@
+# Funny bash script for aliasing xtr.
+
+mkdir -p ~/.xtr
+mv bin/xtr ~/.xtr/bin
+
+. ./src/link.xtr
+
+cat ./src/link.xtr >> ~/.bashrc

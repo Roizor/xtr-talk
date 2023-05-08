@@ -1,0 +1,2 @@
+# Alias for `xtr` command linkage
+alias xtr="~/.xtr/bin"
