@@ -1,2 +1,2 @@
 main:
-	touch xtr && rm ./xtr && clang main.c -o xtr
+	touch ./bin/xtr && rm ./bin/xtr && clang ./src/main.c -o ./bin/xtr
