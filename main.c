@@ -4,6 +4,8 @@
 #include "xtr.c"
 
 int main( ) {
+  // Not even i'm sure how this code works
+
   srand(time(NULL));
 
   char buf[xtr_talk_length + 1];
