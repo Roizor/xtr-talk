@@ -3,8 +3,6 @@
 #include <time.h>
 #include "xtr.c"
 
-#define RANDOM_STRING_LENGTH 50
-
 int main( ) {
   srand(time(NULL));
 

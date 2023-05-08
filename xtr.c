@@ -1,11 +1,13 @@
 // This file is quite important
 
+int xtr_talk_length = 50;
 
 
 
 
 
-char* XTR_POSSIBLE = "abcdefghijklmnopqrstuvwxyz:;1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ€¢$¢¥.!,/<>?";
+
+char* xtr_possible = "abcdefghijklmnopqrstuvwxyz:;1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ€¢$¢¥.!,/<>?";
 
 int xtr_length() {
     // initializing count variable (stores the length of the string)
