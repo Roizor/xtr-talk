@@ -6,11 +6,11 @@
 int main( ) {
   srand(time(NULL));
 
-  char buf[RANDOM_STRING_LENGTH + 1];
-  for (size_t i = 0; i < RANDOM_STRING_LENGTH; i++) {
-    buf[i] = XTR_POSSIBLE[rand() % xtr_length()];
+  char buf[xtr_talk_length + 1];
+  for (size_t i = 0; i < xtr_length; i++) {
+    buf[i] = xtr_possible[rand() % xtr_length()];
   }
-  buf[RANDOM_STRING_LENGTH] = '\0';
+  buf[xtr_talk_length] = '\0';
 
   puts(buf);
   return 0;
